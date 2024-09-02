@@ -1,14 +1,14 @@
 import streamlit as st
 import pandas as pd
 from openpyxl import load_workbook, Workbook
-import os
-import time
+#import os
+#import time
 
 import gspread
 from google.oauth2.service_account import Credentials
 
-from io import BytesIO
-import xlsxwriter
+#from io import BytesIO
+#import xlsxwriter
 
 ### funcion descarga de excel
 def descargar_excel(dataframe):
