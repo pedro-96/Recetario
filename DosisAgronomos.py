@@ -7,7 +7,7 @@ from openpyxl import load_workbook, Workbook
 import gspread
 from google.oauth2.service_account import Credentials
 
-#from io import BytesIO
+from io import BytesIO
 #import xlsxwriter
 
 ### funcion descarga de excel
